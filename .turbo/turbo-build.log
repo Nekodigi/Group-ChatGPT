@@ -1,0 +1,39 @@
+[?25l[2J[m[H]0;C:\WINDOWS\system32\cmd.exe [?25h]0;npm]0;npm run build[?25l
+> shadcn-chat@0.1.0 build
+> next build[5;1H[K[?25h]0;C:\WINDOWS\system32\cmd.exe [?25l  [38;2;173;127;168m[1m▲ Next.js 14.2.11[m
+  - Environments: .env.local[8;1H[?25h [37m[1m [m Creating an optimized production build ...
+ [32m[1m✓[m Compiled successfully
+ [37m[1m [m Linting and checking validity of types  [36m.[?25l[m [37m[1m [m Linting and checking validity of types  [36m..[K[89C[m [37m[1m [m Linting and checking validity of types  [36m...[K[88C[m [37m[1m [m Linting and checking validity of types  [36m.[K[90C[m [37m[1m [m Linting and checking validity of types  [36m..[K[89C[m [37m[1m [m Linting and checking validity of types  [36m...[K[88C[m [37m[1m [m Linting and checking validity of types  [36m.[K[90C[m [37m[1m [m Linting and checking validity of types  [36m..[K[89C[m [37m[1m [m Linting and checking validity of types  [36m...[K[88C[m [37m[1m [m Linting and checking validity of types  [36m.[K[90C[m[K[36m
+./src/components/chat/chat-bottombar.tsx[?25h[m
+[33m103[m:[33m6  [1mWarning[m: React Hook useEffect has missing dependencies: 'formattedTime', 'hasInitialResponse', 'setHasInitialResponse', and 'se
+[10;134HetMessages'. Either include them or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[m[K
+
+[36m./src/components/examples.tsx[m
+[33m26[m:[33m6  [1mWarning[m: React Hook useEffect has missing dependencies: 'examples' and 'setSelectedExample'. Either include them or remove the d
+[10;134Hdependency array.  [90m[1mreact-hooks/exhaustive-deps[m[K
+
+[36minfo  [m- Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules[K
+ [37m[1m [m Linting and checking validity of types  [36m.[K[?25l[90C[m [37m[1m [m Linting and checking validity of types  [36m..[K[89C[m [37m[1m [m Linting and checking validity of types  [36m...[K[88C[m [37m[1m [m Linting and checking validity of types  [36m.[K[90C[m [37m[1m [m Linting and checking validity of types  [36m..[K[89C[m [37m[1m [m Linting and checking validity of types  [36m...[K[88C[m [32m[1m✓[m Linting and checking validity of types[K[?25h
+ [37m[1m [m Collecting page data  [36m.[K[?25l[108C[m [37m[1m [m Collecting page data  [36m..[K[107C[m [37m[1m [m Collecting page data  [36m...[K[106C[m [32m[1m✓[m Collecting page data[K[?25h
+(node:13976) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ [37m[1m [m Generating static pages (0/6)  [36m[    ][?25l[m [37m[1m [m Generating static pages (0/6)  [36m[=   ][K[94C[m[11;41H(node:25700) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a u
+[10;134Huserland alternative instead.[106C
+(Use `node --trace-deprecation ...` to show where the warning was created)[60C
+[134C [32m[1m✓[m Generating static pages (6/6)[K[?25h
+ [37m[1m [m Finalizing page optimization  [36m. [37m[1m [m Collecting build traces  [36m.[?25l[m [37m[1m [m Collecting build traces  [36m..[K[104C[m [37m[1m [m Collecting build traces  [36m...[K[103C[m [37m[1m [m Collecting build traces  [36m.[K[105C[m [37m[1m [m Collecting build traces  [36m..[K[104C[m [37m[1m [m Collecting build traces  [36m...[K[103C[m [37m[1m [m Collecting build traces  [36m.[K[105C[m [37m[1m [m Collecting build traces  [36m..[K[104C[m [37m[1m [m Collecting build traces  [36m...[K[103C[m [37m[1m [m Collecting build traces  [36m.[K[105C[m [37m[1m [m Collecting build traces  [36m..[K[104C[m [32m[1m✓[m Collecting build traces[K[?25h
+ [32m[1m✓[m Finalizing page optimization[K
+
+[4mRoute (app)[24m[30X[4m[30CSize[24m     [4mFirst Load JS[24m[K
+┌ ƒ /                                    40.4 kB[37m[1m[9C136 kB[m[K
+├ ƒ /_not-found                          872 B[37m[1m[10C87.9 kB[m[K
+└ ƒ /api/chatgpt                         0 B[37m[1m[16C0 B[m[K
++ First Load JS shared by all[37m[1m[12C87.1 kB[m[K
+  ├ chunks/23-e49d69b50ddc860d.js        31.6 kB
+  ├ chunks/fd9d1056-575a4769a7d03dba.js  53.6 kB
+  └ other shared chunks (total)          1.86 kB
+
+
+ƒ  (Dynamic)  server-rendered on demand
+
+[K
